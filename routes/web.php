@@ -17,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('hello/{name?}',[HelloController::class,'index']);
+Route::get('hello/{name?}',[HelloController::class,'index'])->name('hello.index');
